@@ -1,0 +1,102 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-image: url('https://cache.umusic.com/_sites/_halo/alterbridge/images/star_bg.jpg');
+  background-position-x: center;
+  background-position-y: 23%;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: x-large;
+}
+
+a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  height: 170px;
+  opacity: .5;
+  ;
+}
+
+.jumbotron h2 {
+   
+  font-size: 60px;
+  font-weight: 700;
+  justify-content: center;
+ 
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #2a70e0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.portrait {
+  width:  350px;
+  height: 300px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+#image {
+  opacity: 0.9; 
+}
+
+#top {
+    color: white;
+}
+
+#content {
+  background-color: white;
+  opacity: .80;
+  font-weight: 700;
+}
